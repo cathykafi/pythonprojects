@@ -16,7 +16,7 @@ class Vehicle:
     def sound(self):
         print(f"{self.name} makes a noise.")  # gets overridden
 
-# Subaru class inherits VVehicle
+# Subaru class inherits Vehicle
 class Subaru(Vehicle):
     def sound(self):
         print(f"{self.name} says: Tatatatata!")
@@ -47,7 +47,7 @@ def car_game():
         print("Unknown car type! You get a mystery car.")
         car = Vehicle(name)
 
-    # Interact with the pet
+    # Interact with the game
     while True:
         print("\nWhat would you like to do?")
         print("1. race")
